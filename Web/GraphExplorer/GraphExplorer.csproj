@@ -255,6 +255,9 @@
     <Content Include="ClientApp\app\components\app\app.html" />
     <Content Include="ClientApp\app\components\modal\modal.css" />
     <Content Include="ClientApp\app\components\modal\modal.html" />
+    <Content Include="ClientApp\app\components\tableview\tableview.css" />
+    <Content Include="ClientApp\app\components\tableview\tableview.html" />
+    <TypeScriptCompile Include="ClientApp\app\components\tableview\tableview.ts" />
     <Content Include="ClientApp\app\images\microsoft_logo.png" />
     <Content Include="ClientApp\vis\img\network\acceptDeleteIcon.png" />
     <Content Include="ClientApp\vis\img\network\addNodeIcon.png" />
@@ -331,6 +334,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\queries.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientApp\fonts\fontawesome-webfont.ttf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

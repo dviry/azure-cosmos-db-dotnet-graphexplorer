@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "aurelia-binding": "1.0.0",
+    "au-table": "^0.1.13",
     "aurelia-bootstrapper-webpack": "^1.0.0",
     "aurelia-event-aggregator": "^1.0.0",
     "aurelia-fetch-client": "^1.0.0",
@@ -49,7 +50,10 @@
   },
   "aurelia": {
     "build": {
-      "includeDependencies": "aurelia-*"
+      "includeDependencies": "aurelia-*",
+      "resources": [
+        "au-table"
+      ]
     }
   }
 }
