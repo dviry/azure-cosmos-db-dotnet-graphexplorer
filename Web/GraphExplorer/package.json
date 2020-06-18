@@ -2,7 +2,6 @@
   "name": "tmp",
   "version": "0.0.0",
   "dependencies": {
-    "aurelia-binding": "1.0.0",
     "au-table": "^0.1.13",
     "aurelia-bootstrapper-webpack": "^1.0.0",
     "aurelia-event-aggregator": "^1.0.0",
@@ -20,9 +19,9 @@
     "aurelia-templating-resources": "^1.0.0",
     "aurelia-templating-router": "^1.0.0",
     "bluebird": "^3.5.0",
-    "bootstrap": ">=4.1.2",
+    "bootstrap": "^3.3.7",
     "isomorphic-fetch": "^2.2.1",
-    "jquery": "3.5.0",
+    "jquery": "^2.2.1",
     "json-formatter-js": "^2.2.0"
   },
   "devDependencies": {
@@ -43,9 +42,9 @@
     "style-loader": "^0.13.1",
     "to-string-loader": "^1.1.5",
     "ts-loader": "^0.8.2",
-    "typescript": "2.2.1",
-    "url-loader": "^0.5.7",
-    "webpack": "4.20.2",
+    "typescript": "^3.4.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3",
     "webpack-hot-middleware": "^2.10.0"
   },
   "aurelia": {
@@ -55,5 +54,9 @@
         "au-table"
       ]
     }
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "build-vendor": "webpack --config ./webpack.config.vendor.js"
   }
 }

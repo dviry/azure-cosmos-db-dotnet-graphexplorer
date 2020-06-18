@@ -58,6 +58,8 @@ export class Settings
         { font: 'CommercialGraphIcons', code: '\uE901' }, //paws
         { font: 'CommercialGraphIcons', code: '\uE904' }, //soccer ball
         { font: 'CommercialGraphIcons', code: '\uE905' }, //wight lifting
+        { font: 'FontAwesome', code: '\uf114' }, // fa-folder-o
+        { font: 'FontAwesome', code: '\uf044' }, // fa-pencil-square-o / edit
 
         null //empty
     ]
